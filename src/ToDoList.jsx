@@ -65,9 +65,9 @@ function ToDoList() {
                         {task}
                     <button className='delete-button' 
                     onClick={() => handleDeleteTask(index)}>Delete</button>
-                    <button className='move-up-button' 
+                    <button className='move-button' 
                     onClick={() => handleMoveTaskup(index)}>⬆️</button>
-                    <button className='move-down-button' 
+                    <button className='move-button' 
                     onClick={() => handleTaskMoveDown(index)}>⬇️</button>
                     </span>
                 </li>
