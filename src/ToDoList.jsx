@@ -14,7 +14,7 @@ function ToDoList() {
 
     function handleAddTask() {
         if (newTask.trim() !== "") {
-            setTasks([...tasks, newTask]);
+            setTasks(t => [...t, newTask]);
             setNewTask("");
         }
     }
